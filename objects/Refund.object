@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <sharingModel>ReadWrite</sharingModel>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>AccountId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Amount</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Balance</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CancellationDate</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CancellationEffectiveDate</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CancellationGatewayDate</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CancellationGatewayRefNumber</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CancellationGatewayResultCode</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CancellationSfResultCode</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Comments</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Date</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>EffectiveDate</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Email</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>GatewayDate</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>GatewayRefNumber</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>GatewayResultCode</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>GatewayResultCodeDescription</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ImpactAmount</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>IpAddress</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>MacAddress</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>NetApplied</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PaymentGatewayId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PaymentGroupId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PaymentMethodId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Phone</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ProcessingMode</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SfResultCode</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Status</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>TotalApplied</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>TotalUnapplied</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Type</fullName>
+    </fields>
+    <listViews xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Refund</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+</CustomObject>

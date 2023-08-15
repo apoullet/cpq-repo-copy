@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>LocationStatus</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DunsNumber</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Phone</customTabListAdditionalFields>
+        <customTabListAdditionalFields>URL</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>LocationStatus</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DunsNumber</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Phone</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>URL</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CompanyCurrencyIsoCode</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CountryAccessCode</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CurrencyCode</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Description</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>DomesticUltimateBusinessName</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>DomesticUltimateDunsNumber</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>DunsNumber</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>EmployeeQuantityGrowthRate</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>EmployeesHere</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>EmployeesHereReliability</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>EmployeesTotal</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>EmployeesTotalReliability</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FamilyMembers</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Fax</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FifthNaics</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FifthNaicsDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FifthSic</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FifthSic8</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FifthSic8Desc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FifthSicDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FipsMsaCode</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FipsMsaDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FortuneRank</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FourthNaics</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FourthNaicsDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FourthSic</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FourthSic8</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FourthSic8Desc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FourthSicDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>GeoCodeAccuracy</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>GlobalUltimateBusinessName</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>GlobalUltimateDunsNumber</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>GlobalUltimateTotalEmployees</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ImportExportAgent</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>IncludedInSnP500</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Latitude</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>LegalStatus</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>LocationStatus</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Longitude</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>MarketingPreScreen</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>MarketingSegmentationCluster</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>MinorityOwned</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Name</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>NationalId</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>NationalIdType</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>OutOfBusiness</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>OwnOrRent</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ParentOrHqBusinessName</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ParentOrHqDunsNumber</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Phone</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PremisesMeasure</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PremisesMeasureReliability</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PremisesMeasureUnit</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PrimaryNaics</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PrimaryNaicsDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PrimarySic</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PrimarySic8</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PrimarySic8Desc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PrimarySicDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PriorYearEmployees</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PriorYearRevenue</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PublicIndicator</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SalesTurnoverGrowthRate</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SalesVolume</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SalesVolumeReliability</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SecondNaics</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SecondNaicsDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SecondSic</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SecondSic8</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SecondSic8Desc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SecondSicDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SixthNaics</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SixthNaicsDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SixthSic</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SixthSic8</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SixthSic8Desc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SixthSicDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>SmallBusiness</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>StockExchange</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>StockSymbol</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Subsidiary</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ThirdNaics</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ThirdNaicsDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ThirdSic</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ThirdSic8</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ThirdSic8Desc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ThirdSicDesc</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>TradeStyle1</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>TradeStyle2</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>TradeStyle3</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>TradeStyle4</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>TradeStyle5</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>URL</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>UsTaxId</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>WomenOwned</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>YearStarted</fullName>
+    </fields>
+</CustomObject>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <sharingModel>ReadWrite</sharingModel>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>AccountId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Comments</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CompanyName</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>NickName</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PaymentMethodDetails</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PaymentMethodSubType</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PaymentMethodType</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Status</fullName>
+    </fields>
+</CustomObject>

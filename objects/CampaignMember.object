@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <sharingModel>ControlledByCampaign</sharingModel>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>City</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>CompanyOrAccount</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>ContactId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Country</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Description</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>DoNotCall</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Email</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Fax</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FirstName</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>FirstRespondedDate</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>HasOptedOutOfEmail</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>HasOptedOutOfFax</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>HasResponded</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>LastName</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>LeadId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>LeadSource</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>MobilePhone</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Phone</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>PostalCode</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Salutation</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>State</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Street</fullName>
+    </fields>
+    <fields xmlns="http://soap.sforce.com/2006/04/metadata">
+        <fullName>Title</fullName>
+    </fields>
+</CustomObject>

@@ -1,0 +1,18 @@
+{
+  "Object": "OutletLocale__c",
+  "Fields": {
+    "GearsetExternalId__c": "QAEBzoe200000e8P1a",
+    "OLCountry__c": "United States",
+    "OLRequired__c": "false",
+    "OLType__c": "Enable"
+  },
+  "References": [
+    {
+      "Name": "OLProduct__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "SAAK74L000000e8t10"
+      }
+    }
+  ]
+}

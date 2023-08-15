@@ -1,0 +1,18 @@
+{
+  "Object": "IndustryPrice__c",
+  "Fields": {
+    "GearsetExternalId__c": "KAEbUpM400000e8Q1a",
+    "IPIndustry__c": "Healthcare",
+    "IPPrice__c": "415.0",
+    "IPSLA__c": "Platinum"
+  },
+  "References": [
+    {
+      "Name": "IPProduct__r",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "SAAB74L000000e8t10"
+      }
+    }
+  ]
+}

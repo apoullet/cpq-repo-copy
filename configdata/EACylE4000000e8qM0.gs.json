@@ -1,0 +1,22 @@
+{
+  "Object": "ProductConsumptionSchedule",
+  "Fields": {
+    "GearsetExternalId__c": "EACylE4000000e8qM0"
+  },
+  "References": [
+    {
+      "Name": "ConsumptionSchedule",
+      "ReferencedObject": "ConsumptionSchedule",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "AACc630000000e8hM0"
+      }
+    },
+    {
+      "Name": "Product",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "CAAs64L000000e8t10"
+      }
+    }
+  ]
+}

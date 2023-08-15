@@ -1,0 +1,25 @@
+{
+  "Object": "PricebookEntry",
+  "Fields": {
+    "GearsetExternalId__c": "GAAtfSV100000e8u10",
+    "IsActive": "true",
+    "UnitPrice": "450.0",
+    "UseStandardPrice": "false"
+  },
+  "References": [
+    {
+      "Name": "Pricebook2",
+      "ReferencedObject": "Pricebook2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "StandardPriceBook"
+      }
+    },
+    {
+      "Name": "Product2",
+      "ReferencedObject": "Product2",
+      "ReferencedFields": {
+        "GearsetExternalId__c": "CAAj84L000000e8t10"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Object": "ConsumptionSchedule",
+  "Fields": {
+    "BillingTerm": "1",
+    "BillingTermUnit": "Month",
+    "Description": "",
+    "GearsetExternalId__c": "AACd630000000e8hM0",
+    "IsActive": "true",
+    "MatchingAttribute": "",
+    "Name": "Text",
+    "RatingMethod": "Tier",
+    "SBQQ__Category__c": "Rates",
+    "Type": "Slab",
+    "UnitOfMeasure": "Messages"
+  },
+  "References": []
+}
